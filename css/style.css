@@ -77,7 +77,15 @@ h1, h2, h3, h4, h5, h6, .section-subtitle, #main-nav a, .button, figcaption, #po
 
 h3 {
 	font-size: 30px;
-	font-weight: normal;
+	font-weight:lighter;
+	text-align:left !important;
+	align:center;
+	position:relative;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: lighter;
 }
 #main-title, #main-subtitle {
 	font-family: 'Playfair Display', Georgia, serif;

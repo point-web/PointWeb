@@ -9,6 +9,19 @@
 
 }
 
+hr {
+    display: block !important;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-style: inset !important;
+    border-width: 1px !important;
+}
+.genimg {
+    zoom:50%;
+    border:10px solid white;
+}
 @keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
 @-webkit-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
 @-moz-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
@@ -16,6 +29,11 @@
 .intro-divider {
 	vertical-align: center;
 	margin: auto
+}
+
+#gen1, #gen2, #gen3, #gen4 {
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 #invision{
