@@ -33,6 +33,35 @@
 	outline: none;
 }
 
+.container {position: relative;}
+.logo {position:absolute;
+max-width: 60%;
+height: auto;
+top: 30%;
+ left: 50%;
+ /* bring your own prefixes */
+ transform: translate(-50%, -30%);
+ z-index: 2;}
+ .image {
+     z-index: 3;
+     position: absolute;
+     max-width: 30%;
+     width: 3%;
+     top: 33.6%;
+     left:57.6%;
+ }
+ #col-lg-12 {
+     z-index: 3;
+     position: absolute;
+ }
+ .google {
+     position: absolute;
+     top: 90%;
+     width: 10%;
+     left:50%;
+     transform: translate(-50%, -90%);
+ }
+
 img{
 	height: 100%;
 	border: none;
