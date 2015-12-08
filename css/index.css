@@ -8,6 +8,9 @@
 	font-family: 'Roboto', sans-serif;
 
 }
+img {
+    vertical-align: middle;
+}
 
 hr {
     display: block !important;
@@ -22,10 +25,22 @@ hr {
     zoom:50%;
     border:10px solid white;
 }
+
+.hi {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#watchimg{
+    vertical-align: middle;
+}
 @keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
 @-webkit-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
 @-moz-keyframes blink{0%{opacity:1}50%{opacity:0}100%{opacity:1}}
-
+.love{
+    zoom:50%;
+}
 .intro-divider {
 	vertical-align: center;
 	margin: auto
