@@ -72,8 +72,12 @@ body, #posts-list h3 {
 }
 h1, h2, h3, h4, h5, h6, .section-subtitle, #main-nav a, .button, figcaption, #posts-list time, .main-footer, .projects-list span {
 /*	font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif; */
-	font-family: "Courier New";
+	font-family: "Helvetica Neue";
+}
 
+h3 {
+	font-size: 30px;
+	font-weight: normal;
 }
 #main-title, #main-subtitle {
 	font-family: 'Playfair Display', Georgia, serif;
@@ -177,7 +181,7 @@ q {
 .post-content h3 {
     font-size: 16px;
     line-height: 22px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 h4 {
